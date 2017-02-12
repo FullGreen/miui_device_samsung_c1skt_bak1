@@ -1,0 +1,19 @@
+*** ./smali/android/graphics/Bitmap.smali	2017-02-13 00:07:43.134809983 +0900
+--- /home/fullgreen/build/nougat/patchrom/c1skt/temp/new_smali/framework.jar.out/./smali/android/graphics/Bitmap.smali	2017-02-13 00:05:28.033521505 +0900
+***************
+*** 41,47 ****
+  
+  
+  # instance fields
+! .field private mBuffer:[B
+  
+  .field mDensity:I
+  
+--- 41,47 ----
+  
+  
+  # instance fields
+! .field public mBuffer:[B
+  
+  .field mDensity:I
+  
